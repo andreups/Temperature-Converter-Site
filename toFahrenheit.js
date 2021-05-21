@@ -12,6 +12,6 @@ function toFahrBtnClicked() {
     let fahrTemp = (cInput * 9/5) + 32;
 
     const fResultField = document.getElementById("fResult");
-    fResultField.value = fahrTemp; 
+    fResultField.value = fahrTemp.toFixed(2); 
 }
 

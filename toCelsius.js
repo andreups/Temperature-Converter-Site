@@ -13,5 +13,5 @@ function toCelsBtnClicked() {
     let celsTemp = (fInput - 32) * 5/9;
 
     const cResultField = document.getElementById("cResult");
-    cResultField.value = celsTemp; 
+    cResultField.value = celsTemp.toFixed(2); 
 }
