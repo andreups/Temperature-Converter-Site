@@ -27,7 +27,9 @@
     border-radius: 50px;
 }
 .navbar {
-    background-color: rgba(110, 107, 128, 0.411);
+    background-color: rgba(110, 107, 128, 0.0);
+    font-size: large;
+    
 }
 .convertBtn, .reset {
     color: white;
@@ -37,4 +39,8 @@
 .intro {
     font-size: large;
     padding: 50px;
+}
+.navbar-brand {
+    color: white;
+    height: 45px;
 }
