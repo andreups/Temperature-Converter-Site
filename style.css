@@ -1,0 +1,43 @@
+#home {
+    color: rgba(99, 38, 2);
+    background-image: url('home.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#UK {
+    background-image: url('Celsius.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#US {
+    background-image: url('Fahrenheit.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.card {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.582);
+    border: none;
+    border-radius: 50px;
+}
+.navbar {
+    background-color: rgba(112, 112, 112, 0.411);
+}
+.convertBtn, .reset {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.12);
+    border: 1px solid rgba(131, 0, 0, 0.568);
+}
+.intro {
+    font-weight: 500;
+    font-size: large;
+    background-color: rgba(255, 255, 255, 0.282);
+    margin: 50px;
+    border-radius: 10px;
+}
